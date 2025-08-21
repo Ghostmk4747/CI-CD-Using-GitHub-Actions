@@ -1,10 +1,8 @@
 import random
 
 def play_game():
-
-    
-    print("Welcome to Rock-Paper-Scissors!");
-    choices = ["rock", "paper", "scissors"];
+    print("Welcome to Rock-Paper-Scissors!")
+    choices = ["rock", "paper", "scissors"]
 
     while True:
         user_choice = input("\nEnter Rock, Paper, or Scissors (or 'quit' to exit): ").lower()
